@@ -1,0 +1,53 @@
+
+
+
+
+
+
+            // Extra debug code
+            //webOut.WriteLine("JobID : {0}", hookJob.JobID.ToString());
+            //webOut.WriteLine("TransactionUID : {0}", hookJob.TransactionUID);
+            //webOut.WriteLine("FileID : {0}", hookJob.FileID.ToString());
+            //webOut.WriteLine("RootJobID : {0}", hookJob.RootJobID.ToString());
+            //webOut.WriteLine("SourceJobID : {0}", hookJob.SourceJobID.ToString());
+            //webOut.WriteLine("ParentJobID : {0}", hookJob.ParentJobID.ToString());
+            //webOut.WriteLine("Committed : {0}", hookJob.Committed.ToString());
+            //webOut.WriteLine("HasFile : {0}", hookJob.HasFile.ToString());
+            //webOut.WriteLine("DestinationID : {0}", hookJob.DestinationID.ToString());
+            //webOut.WriteLine("DestinationName : {0}", hookJob.DestinationName);
+            //webOut.WriteLine("JobStateID : {0}", hookJob.JobStateID.ToString());
+            //webOut.WriteLine("SubJobStateID : {0}", hookJob.SubJobStateID.ToString());
+            //webOut.WriteLine("AggregateJobStateID : {0}", hookJob.AggregateJobStateID.ToString());
+            //webOut.WriteLine("CheckpointID : {0}", hookJob.CheckpointID.ToString());
+            //webOut.WriteLine("CheckpointName : {0}", hookJob.CheckpointName);
+            //webOut.WriteLine("SubJobCount : {0}", hookJob.SubJobCount.ToString());
+            //webOut.WriteLine("SubJobCompletedCount : {0}", hookJob.SubJobCompletedCount.ToString());
+            //webOut.WriteLine("JobStatusMessage : {0}", hookJob.JobStatusMessage);
+            //webOut.WriteLine("JobSize : {0}", hookJob.JobSize.ToString());
+            //webOut.WriteLine("Created : {0}", hookJob.Created.ToString());
+            //webOut.WriteLine("DeviceName : {0}", hookJob.DeviceName);
+            //webOut.WriteLine("LastStateUpdate : {0}", hookJob.LastStateUpdate.ToString());
+            //webOut.WriteLine("IJobName : {0}", hookJob.IJobName);
+            //webOut.WriteLine("IExtName : {0}", hookJob.IExtName);
+            //webOut.WriteLine("JobIDSPDE : {0}", hookJob.JobIDSPDE.ToString());
+            //webOut.WriteLine("TotalImpressions : {0}", hookJob.TotalImpressions.ToString());
+            //webOut.WriteLine("ProcessingStarted : {0}", hookJob.ProcessingStarted.ToString());
+            //webOut.WriteLine("ProcessingEnded : {0}", hookJob.ProcessingEnded.ToString());
+            //webOut.WriteLine("DisplayJobName : {0}", hookJob.DisplayJobName);
+
+
+            //try
+            //{
+            //    using (StreamWriter webOut = new StreamWriter(outfile.ToString(), true))
+            //    {
+            //        webOut.WriteLine(hookJob.JobID.ToString());
+            //        webOut.WriteLine(hookJob.RootJobID.ToString());
+            //    }
+            //}
+            //catch (Exception e)
+            //{
+            //    using (StreamWriter webOut = System.IO.File.CreateText(outfile.ToString()))
+            //    {
+            //        webOut.WriteLine(String.Format("There was an error : {0}", e.ToString()));
+            //    }
+            //}
